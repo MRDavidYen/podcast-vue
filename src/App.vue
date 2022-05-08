@@ -1,5 +1,6 @@
 <template>
   <HeaderVue/>
+  <router-view></router-view>
   <FooterVue/>
 </template>
 
@@ -11,7 +12,7 @@ import FooterVue from './components/Footer.vue';
 @Options({
   components: {
     HeaderVue,
-    FooterVue
+    FooterVue,
   },
 })
 export default class App extends Vue {}

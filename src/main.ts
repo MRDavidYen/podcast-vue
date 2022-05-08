@@ -14,7 +14,7 @@ const routingConfig = [
         path: "/podcast/:pid",
         name: "podcast_detail",
         component: DetailVue
-    },
+    }
 ]
 
 const router = VueRouter.createRouter({

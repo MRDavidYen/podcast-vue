@@ -1,5 +1,6 @@
 <template>
-  <div></div>
+  <div>456</div>
+  <router-view></router-view>
 </template>
 
 <script>
